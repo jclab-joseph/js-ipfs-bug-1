@@ -33,6 +33,8 @@ async function* readFileChunks(filePath: string): AsyncIterable<Uint8Array> {
 
 
 (async () => {
+  console.log(await client.version());
+
   if (1) {
     const hash2 = crypto.createHash('sha256');
     for await (const chunk of readFileChunks('LICENSES.chromium.html')) {
