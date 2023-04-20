@@ -1,0 +1,19 @@
+{
+  "name": "ipfs-bug-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node test.ts"
+  },
+  "dependencies": {
+    "@types/node": "^18.15.12",
+    "ipfs-http-client": "^60.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.0.4"
+  }
+}
